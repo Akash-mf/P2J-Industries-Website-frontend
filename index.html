@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>P2J Industries — Innovative Machines for a Better Tomorrow</title>
+  <meta name="description" content="P2J Industries manufactures industrial machines, smart products and everyday utilities for businesses and homes — engineered with shop-floor precision." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="icon" href="Images/logo/P2J_Logo.png">
+</head>
+<body>
+
+  <!-- ============ TOP BAR ============ -->
+  <div class="topbar">
+    <div class="container">
+      <div class="tagline"><i class="fa-solid fa-truck-fast"></i><span>Reliable Industrial Solutions for a Better Tomorrow</span></div>
+      <div class="right">
+        <a href="contact.html" class="support">Need Support?</a>
+        <span class="divider"></span>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand"><img src="Images/logo/P2J_Logo.png" alt="P2J Industries — we fulfill your wishes" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><span class="brand-text">P2J INDUSTRIES<small>we fulfill your wishes.</small></span></a>
+
+      <nav class="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="has-sub">
+            <a href="products.html">Products <i class="fa-solid fa-chevron-down chev"></i></a>
+            <div class="submenu">
+              <a href="products.html?cat=gadgets"><i class="fa-solid fa-chevron-right"></i>Gadgets</a>
+              <a href="products.html?cat=kitchen-baskets"><i class="fa-solid fa-chevron-right"></i>Kitchen Baskets</a>
+              <a href="products.html?cat=kitchen-utilities"><i class="fa-solid fa-chevron-right"></i>Kitchen Utilities</a>
+              <a href="products.html?cat=gym-equipment"><i class="fa-solid fa-chevron-right"></i>Gym Equipment</a>
+              <a href="products.html?cat=tools"><i class="fa-solid fa-chevron-right"></i>Tools</a>
+              <a href="products.html?cat=wall-decors"><i class="fa-solid fa-chevron-right"></i>Wall Decors</a>
+              <a href="products.html?cat=wire-trays"><i class="fa-solid fa-chevron-right"></i>Wire Trays</a>
+              <a href="products.html?cat=child-utilities"><i class="fa-solid fa-chevron-right"></i>Child Utilities</a>
+              <a href="products.html?cat=common-utilities"><i class="fa-solid fa-chevron-right"></i>Common Utilities</a>
+            </div>
+          </li>
+          <li class="has-sub">
+            <a href="machines.html">Machine Manufacturers <i class="fa-solid fa-chevron-down chev"></i></a>
+            <div class="submenu">
+              <a href="machines.html?cat=construction"><i class="fa-solid fa-chevron-right"></i>Construction Machines</a>
+              <a href="machines.html?cat=industrial"><i class="fa-solid fa-chevron-right"></i>Industrial Machines</a>
+              <a href="machines.html?cat=painting"><i class="fa-solid fa-chevron-right"></i>Painting Machines</a>
+              <a href="machines.html?cat=specialised"><i class="fa-solid fa-chevron-right"></i>Specialised Machines</a>
+              <a href="machines.html?cat=furniture"><i class="fa-solid fa-chevron-right"></i>Furniture Machines</a>
+              <a href="machines.html?cat=tools"><i class="fa-solid fa-chevron-right"></i>Tools</a>
+            </div>
+          </li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="contact.html" class="btn btn-primary">Get a Quote <i class="fa-solid fa-arrow-right"></i></a>
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+    <div class="search-panel" id="searchPanel">
+      <div class="container">
+        <form action="products.html" method="get">
+          <input type="search" name="q" placeholder="Search machines, kitchen baskets, gadgets…" aria-label="Search catalogue">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-accent" aria-hidden="true"></div>
+    <div class="hero-media" role="img" aria-label="CNC cutting machine at work on the P2J shop floor"></div>
+    <div class="container">
+      <div class="hero-copy">
+        <h1>Innovative Machines<br>for a <span class="hl">Better Tomorrow</span></h1>
+        <p class="lead">P2J Industries delivers high-quality industrial machines, smart products, and innovative utilities for businesses and homes.</p>
+        <div class="hero-ctas">
+          <a href="#products" class="btn btn-primary">Explore Products <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+        </div>
+        <div class="hero-feats">
+          <div><i class="fa-solid fa-gear"></i>High Quality<br>Products</div>
+          <div><i class="fa-solid fa-shield-halved"></i>Reliable<br>Performance</div>
+          <div><i class="fa-solid fa-users"></i>Customer<br>Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT + WHY ============ -->
+  <section class="section" id="about" style="background:#fff">
+    <div class="container about-grid">
+      <div class="media-frame">
+        <img src="Images/Products/machines.svg" alt="P2J Industries manufacturing facility" onerror="this.onerror=null;this.src='Images/hero/hero-machine.jpg'">
+      </div>
+
+      <div class="about-copy">
+        <span class="eyebrow"><i class="fa-solid fa-industry"></i> About Us</span>
+        <h2>Building Solutions for Industries and Everyday Life</h2>
+        <p>P2J Industries is a multi-product company delivering industrial machines, innovative utilities and high-quality products for businesses and homes. We combine technology, precision and customer focus to provide reliable and innovative solutions.</p>
+        <a href="about.html" class="btn btn-dark">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="why-card">
+        <h3>Why You Choose Us</h3>
+        <div class="why-item"><span class="ic"><i class="fa-solid fa-box-open"></i></span><div><b>Wide Product Range</b><span>From heavy machines to home utilities.</span></div></div>
+        <div class="why-item"><span class="ic"><i class="fa-solid fa-shield-halved"></i></span><div><b>Quality &amp; Durability</b><span>Built for long-term performance.</span></div></div>
+        <div class="why-item"><span class="ic"><i class="fa-solid fa-indian-rupee-sign"></i></span><div><b>Competitive Pricing</b><span>Best value for your investment.</span></div></div>
+        <div class="why-item"><span class="ic"><i class="fa-solid fa-headset"></i></span><div><b>Expert Support</b><span>Dedicated team for your needs.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCT CATEGORIES ============ -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Our Products</span>
+          <h2>Product Categories</h2>
+        </div>
+        <a href="products.html" class="btn btn-outline">View All Products <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="cat-grid">
+        <a class="cat-card" href="machines.html"><div class="img-slot"><i class="ph fa-solid fa-gears"></i><img src="Images/Categories/machines.png" alt="Machines" onerror="this.remove()"></div><div class="bar">Machines <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=gadgets"><div class="img-slot"><i class="ph fa-solid fa-headphones"></i><img src="Images/Categories/gadgets.png" alt="Gadgets" onerror="this.remove()"></div><div class="bar">Gadgets <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=kitchen-baskets"><div class="img-slot"><i class="ph fa-solid fa-basket-shopping"></i><img src="Images/Categories/kitchen-baskets.png" alt="Kitchen Baskets" onerror="this.remove()"></div><div class="bar">Kitchen Baskets <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=kitchen-utilities"><div class="img-slot"><i class="ph fa-solid fa-blender"></i><img src="Images/Categories/kitchen-utilities.png" alt="Kitchen Utilities" onerror="this.remove()"></div><div class="bar">Kitchen Utilities <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=gym-equipment"><div class="img-slot"><i class="ph fa-solid fa-dumbbell"></i><img src="Images/Categories/gym-equipment.png" alt="Gym Equipment" onerror="this.remove()"></div><div class="bar">Gym Equipment <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=tools"><div class="img-slot"><i class="ph fa-solid fa-screwdriver-wrench"></i><img src="Images/Categories/tools.png" alt="Tools" onerror="this.remove()"></div><div class="bar">Tools <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=wire-trays"><div class="img-slot"><i class="ph fa-solid fa-table-cells"></i><img src="Images/Categories/wire-trays.png" alt="Wire Trays" onerror="this.remove()"></div><div class="bar">Wire Trays <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=child-utilities"><div class="img-slot"><i class="ph fa-solid fa-baby"></i><img src="Images/Categories/child-utilities.png" alt="Child Utilities" onerror="this.remove()"></div><div class="bar">Child Utilities <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=wall-decors"><div class="img-slot"><i class="ph fa-solid fa-leaf"></i><img src="Images/Categories/wall-decors.png" alt="Wall Decors" onerror="this.remove()"></div><div class="bar">Wall Decors <i class="fa-solid fa-arrow-right"></i></div></a>
+        <a class="cat-card" href="products.html?cat=common-utilities"><div class="img-slot"><i class="ph fa-solid fa-trash-can"></i><img src="Images/Categories/common-utilities.png" alt="Common Utilities" onerror="this.remove()"></div><div class="bar">Common Utilities <i class="fa-solid fa-arrow-right"></i></div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MACHINE CATEGORIES ============ -->
+  <section class="section machines-sec on-dark" id="machines">
+    <div class="bg" style="background-image:url('Images/hero/hero-machine.jpg')"></div>
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Machine Manufacturers</span>
+          <h2>Our Machine Categories</h2>
+          <p>High-performance machines for various industrial applications.</p>
+        </div>
+        <a href="machines.html" class="btn btn-primary">View All Machines <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="mach-grid">
+        <a class="mach-card" href="machines.html?cat=construction"><div class="img-slot"><i class="ph fa-solid fa-trowel-bricks"></i><img src="Images/Machines/construction.png" alt="Construction Machines" onerror="this.remove()"></div><h4>Construction Machines</h4><span class="go"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a class="mach-card" href="machines.html?cat=industrial"><div class="img-slot"><i class="ph fa-solid fa-industry"></i><img src="Images/Machines/industrial.png" alt="Industrial Machines" onerror="this.remove()"></div><h4>Industrial Machines</h4><span class="go"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a class="mach-card" href="machines.html?cat=painting"><div class="img-slot"><i class="ph fa-solid fa-spray-can"></i><img src="Images/Machines/painting.png" alt="Painting Machines" onerror="this.remove()"></div><h4>Painting Machines</h4><span class="go"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a class="mach-card" href="machines.html?cat=specialised"><div class="img-slot"><i class="ph fa-solid fa-microchip"></i><img src="Images/Machines/specialised.png" alt="Specialised Machines" onerror="this.remove()"></div><h4>Specialised Machines</h4><span class="go"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a class="mach-card" href="machines.html?cat=furniture"><div class="img-slot"><i class="ph fa-solid fa-couch"></i><img src="Images/Machines/furniture.png" alt="Furniture Machines" onerror="this.remove()"></div><h4>Furniture Machines</h4><span class="go"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a class="mach-card" href="machines.html?cat=tools"><div class="img-slot"><i class="ph fa-solid fa-hammer"></i><img src="Images/Machines/tools.png" alt="Tools (Iron Workers)" onerror="this.remove()"></div><h4>Tools (Iron Workers)</h4><span class="go"><i class="fa-solid fa-arrow-right"></i></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ POPULAR PRODUCTS ============ -->
+  <section class="section" id="popular">
+    <div class="container">
+      <div class="pop-head">
+        <div>
+          <span class="eyebrow">Featured Products</span>
+          <h2 style="font-size:clamp(26px,3vw,34px);font-weight:700;margin-top:6px">Popular Products</h2>
+        </div>
+        <div class="tabs" id="popTabs" role="tablist">
+          <button class="active" data-cat="all">All</button>
+          <button data-cat="machines">Machines</button>
+          <button data-cat="gadgets">Gadgets</button>
+          <button data-cat="kitchen">Kitchen</button>
+          <button data-cat="gym">Gym Equipment</button>
+          <button data-cat="tools">Tools</button>
+        </div>
+        <a href="products.html" class="btn btn-outline">View All <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="prod-grid" id="popGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEO TESTIMONIALS ============ -->
+  <section class="section" id="videos" style="background:#fff">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Video Testimonials</span>
+          <h2>Told by the People Running Our Machines</h2>
+        </div>
+        <div class="swiper-nav">
+          <button class="testi-prev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="testi-next" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="testi-card"><a href="#" class="testi-thumb" aria-label="Play testimonial: Fabrication unit, Coimbatore"><span class="play-btn"></span></a><p class="testi-quote">"Three years on a P2J Iron Worker and it still holds tolerance like day one."</p><p class="testi-name">Fabrication Unit <span>Coimbatore, Tamil Nadu</span></p></div></div>
+          <div class="swiper-slide"><div class="testi-card"><a href="#" class="testi-thumb" aria-label="Play testimonial: Modular kitchen studio, Chennai"><span class="play-btn"></span></a><p class="testi-quote">"The kitchen basket line fits our modular units perfectly, every single time."</p><p class="testi-name">Modular Kitchen Studio <span>Chennai, Tamil Nadu</span></p></div></div>
+          <div class="swiper-slide"><div class="testi-card"><a href="#" class="testi-thumb" aria-label="Play testimonial: Site contractor, Bengaluru"><span class="play-btn"></span></a><p class="testi-quote">"Our construction machines from P2J have run one full year without a single breakdown."</p><p class="testi-name">Site Contractor <span>Bengaluru, Karnataka</span></p></div></div>
+          <div class="swiper-slide"><div class="testi-card"><a href="#" class="testi-thumb" aria-label="Play testimonial: Retail distributor, Coimbatore"><span class="play-btn"></span></a><p class="testi-quote">"Full spec sheets on every SKU make reordering across our stores effortless."</p><p class="testi-name">Retail Distributor <span>Coimbatore, Tamil Nadu</span></p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAREERS BANNER ============ -->
+  <section class="section" id="careers" style="padding-top:0;background:#fff">
+    <div class="container">
+      <div class="careers-banner on-dark">
+        <div class="copy">
+          <span class="eyebrow">Careers</span>
+          <h2>Be a Part of Our Growing Team</h2>
+          <p>Join P2J Industries and build a rewarding career with opportunities to learn, grow and make an impact.</p>
+          <a href="careers.html" class="btn btn-primary">View Careers <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="photo" style="background-image:url('Images/hero/hero-machine.jpg')"></div>
+        <div class="perks">
+          <div><i class="fa-solid fa-chart-line"></i>Growth Opportunities</div>
+          <div><i class="fa-solid fa-gears"></i>Skill Development</div>
+          <div><i class="fa-solid fa-people-group"></i>Positive Work Environment</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="f-brand">
+        <a href="index.html" class="logo-wrap" id="footerLogoWrap">
+          <img src="Images/logo/P2J_Logo_white.png" alt="P2J Industries" onload="document.getElementById('footerLogoWrap').classList.add('white')" onerror="if(!this.dataset.f){this.dataset.f=1;this.onload=null;this.src='Images/logo/P2J_Logo.png'}else{this.style.display='none';this.parentNode.classList.add('white');this.nextElementSibling.style.display='flex'}"><span class="brand-text">P2J INDUSTRIES<small>we fulfill your wishes.</small></span>
+        </a>
+        <p class="desc">Delivering high-quality industrial machines, smart products, and innovative utilities for businesses and homes.</p>
+        <div class="rule"></div>
+        <ul class="f-contact">
+          <li><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps?q=No.834+GST+Road+Keezh+Edayalam+Tindivanam+Tamil+Nadu+604302" target="_blank" rel="noopener">No.834 GST Road, Keezh Edayalam, Tindivanam TK, Villupuram District – 604302.</a></li>
+          <li><i class="fa-solid fa-phone"></i><span><a href="tel:+919807718888">+91 98077 18888</a><br><a href="tel:+919807728888">+91 98077 28888</a></span></li>
+          <li><i class="fa-solid fa-envelope"></i><a href="mailto:info@p2jindustries.com">info@p2jindustries.com</a></li>
+        </ul>
+        <div class="f-social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="f-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i>Home</a></li>
+          <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i>About Us</a></li>
+          <li><a href="products.html"><i class="fa-solid fa-chevron-right"></i>Products</a></li>
+          <li><a href="machines.html"><i class="fa-solid fa-chevron-right"></i>Machine Manufacturers</a></li>
+          <li><a href="careers.html"><i class="fa-solid fa-chevron-right"></i>Careers</a></li>
+          <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i>Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="products.html?cat=gadgets"><i class="fa-solid fa-chevron-right"></i>Gadgets</a></li>
+          <li><a href="products.html?cat=kitchen-baskets"><i class="fa-solid fa-chevron-right"></i>Kitchen Baskets</a></li>
+          <li><a href="products.html?cat=kitchen-utilities"><i class="fa-solid fa-chevron-right"></i>Kitchen Utilities</a></li>
+          <li><a href="products.html?cat=gym-equipment"><i class="fa-solid fa-chevron-right"></i>Gym Equipment</a></li>
+          <li><a href="products.html?cat=tools"><i class="fa-solid fa-chevron-right"></i>Tools</a></li>
+          <li><a href="products.html?cat=wall-decors"><i class="fa-solid fa-chevron-right"></i>Wall Decors</a></li>
+          <li><a href="products.html?cat=wire-trays"><i class="fa-solid fa-chevron-right"></i>Wire Trays</a></li>
+          <li><a href="products.html?cat=child-utilities"><i class="fa-solid fa-chevron-right"></i>Child Utilities</a></li>
+          <li><a href="products.html?cat=common-utilities"><i class="fa-solid fa-chevron-right"></i>Common Utilities</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col">
+        <h4>Machine Manufacturers</h4>
+        <ul>
+          <li><a href="machines.html?cat=construction"><i class="fa-solid fa-chevron-right"></i>Construction Machines</a></li>
+          <li><a href="machines.html?cat=industrial"><i class="fa-solid fa-chevron-right"></i>Industrial Machines</a></li>
+          <li><a href="machines.html?cat=painting"><i class="fa-solid fa-chevron-right"></i>Painting Machines</a></li>
+          <li><a href="machines.html?cat=specialised"><i class="fa-solid fa-chevron-right"></i>Specialised Machines</a></li>
+          <li><a href="machines.html?cat=furniture"><i class="fa-solid fa-chevron-right"></i>Furniture Machines</a></li>
+          <li><a href="machines.html?cat=tools"><i class="fa-solid fa-chevron-right"></i>Tools</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col newsletter">
+        <h4>Stay Updated</h4>
+        <p>Subscribe to our newsletter for the latest updates, products and offers.</p>
+        <form class="nl-form" id="newsletterForm">
+          <span class="ic"><i class="fa-solid fa-envelope"></i></span>
+          <input type="email" required placeholder="Enter your email address" aria-label="Email address">
+          <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <p class="nl-note" id="nlNote"></p>
+        <div class="f-badges">
+          <div><i class="fa-solid fa-shield-halved"></i>High Quality Products</div>
+          <div><i class="fa-solid fa-gear"></i>Reliable Performance</div>
+          <div><i class="fa-solid fa-users"></i>Customer Satisfaction</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="copy">© <span class="js-year">2026</span> P2J Industries — All rights reserved.</div>
+        <div class="legal">
+          <a href="privacy-policy.html">Privacy Policy</a><span class="sep" aria-hidden="true"></span>
+          <a href="terms-and-conditions.html">Terms and Conditions</a><span class="sep" aria-hidden="true"></span>
+          <span class="credit">Designed and developed by <a href="https://ascendlimitlessly.in" target="_blank" rel="noopener">Ascendlimitlessly.in</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/popular.js"></script>
+  <script>
+    // ---- Popular products (data lives in js/popular.js) ----
+    const inr = n => "₹ " + n.toLocaleString("en-IN");
+    const grid = document.getElementById("popGrid");
+    function renderPopular(cat) {
+      const list = cat === "all" ? POPULAR : POPULAR.filter(p => p.cat === cat);
+      grid.innerHTML = list.map((p, k) => `
+        <article class="prod-card" onclick="if(!event.target.closest('a'))location.href='product-detail.html?id=${p.id}'" style="animation-delay:${k * 50}ms">
+          <div class="img-slot"><i class="ph fa-solid ${p.icon}"></i><img src="Images/Popular/${p.img}.png" alt="${p.name}" onerror="this.remove()"></div>
+          <h4>${p.name}</h4>
+          <div class="price">${inr(p.price)}</div>
+          <ul>${p.specs.map(s => `<li>${s}</li>`).join("")}</ul>
+          <a href="product-detail.html?id=${p.id}" class="btn btn-dark">View Details</a>
+        </article>`).join("") || `<p>No featured products in this category yet.</p>`;
+    }
+    document.querySelectorAll("#popTabs button").forEach(b => b.addEventListener("click", () => {
+      document.querySelectorAll("#popTabs button").forEach(x => x.classList.remove("active"));
+      b.classList.add("active");
+      renderPopular(b.dataset.cat);
+    }));
+    renderPopular("all");
+
+    // ---- Testimonials ----
+    if (window.Swiper) new Swiper(".mySwiper", {
+      slidesPerView: 1, spaceBetween: 20, loop: true,
+      navigation: { nextEl: ".testi-next", prevEl: ".testi-prev" },
+      breakpoints: { 640: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+    });
+  </script>
+</body>
+</html>
